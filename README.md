@@ -1,4 +1,4 @@
-# A-Allgemeine-Programme
+# A-General/Allgemeine-Programme
 A General/Allgemeine Programme
 
 Webseite: http://javacrypto.bplaced.net
