@@ -6,8 +6,8 @@ package net.bplaced.javacrypto.general;
 * Copyright/Copyright: frei verwendbares Programm (Public Domain)
 * Copyright: This is free and unencumbered software released into the public domain.
 * Lizenttext/Licence: <http://unlicense.org>
-* getestet mit/tested with: Java Runtime Environment 8 Update 181 x64
-* Datum/Date (dd.mm.jjjj): 25.09.2018
+* getestet mit/tested with: Java Runtime Environment 8 Update 191 x64
+* Datum/Date (dd.mm.jjjj): 28.10.2018
 * Funktion: gibt die verwendete Java-Version aus
 * Function: output of the used Java-Version
 *
@@ -22,7 +22,7 @@ package net.bplaced.javacrypto.general;
 public class A01_HelloWorldJavaVersion {
 
 	public static void main(String[] args) {
-		System.out.println("Hallo Welt");
+		System.out.println("A01 Hallo Welt");
 		System.out.println("Die vorhandene Java-Version ist:" + System.getProperty("java.version"));
 	}
 
