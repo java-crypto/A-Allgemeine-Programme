@@ -6,8 +6,8 @@ package net.bplaced.javacrypto.general;
 * Copyright/Copyright: frei verwendbares Programm (Public Domain)
 * Copyright: This is free and unencumbered software released into the public domain.
 * Lizenttext/Licence: <http://unlicense.org>
-* getestet mit/tested with: Java Runtime Environment 8 Update 181 x64
-* Datum/Date (dd.mm.jjjj): 25.09.2018
+* getestet mit/tested with: Java Runtime Environment 8 Update 191 x64
+* Datum/Date (dd.mm.jjjj): 28.10.2018
 * Funktion: gibt die Java-Systemvariablen aus
 * Function: output of the Java system-variables
 *
@@ -22,6 +22,7 @@ package net.bplaced.javacrypto.general;
 public class A02_JavaSystemVariables {
 
 	public static void main(String[] args) {
+		System.out.println("A02 Ausgabe der Java System Variablen");
 		System.out.println("Java-Version:" + System.getProperty("java.version"));
 		java.util.Properties properties = System.getProperties();
 		properties.list(System.out);

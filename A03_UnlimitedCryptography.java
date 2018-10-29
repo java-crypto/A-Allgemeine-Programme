@@ -26,7 +26,7 @@ import javax.crypto.Cipher;
 public class A03_UnlimitedCryptography {
 
 	public static void main(String[] args) {
-		System.out.println("Ausgabe der erlaubten Kryptograpie-Schluessellaenge");
+		System.out.println("A03 Ausgabe der erlaubten Kryptograpie-Schluessellaenge");
 		int allowedAesKeyLength = 0;
         try {
             allowedAesKeyLength = Cipher.getMaxAllowedKeyLength("AES");

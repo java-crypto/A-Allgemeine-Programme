@@ -12,7 +12,7 @@ package net.bplaced.javacrypto.general;
 * Function: output of all installed/available cryptography provider in Java
 *
 * Sicherheitshinweis/Security notice
-* Die Programmroutinen dienen nur der Darstellung und haben keinen Anspruch auf eine 
+* Die Programmroutinen dienen nur der Darstellung und haben keinen Anspruch auf eine  
 * korrekte Funktion, insbesondere mit Blick auf die Sicherheit ! 
 * Prüfen Sie die Sicherheit bevor das Programm in der echten Welt eingesetzt wird.
 * The program routines just show the function but please be aware of the security part - 
@@ -26,7 +26,7 @@ public class A04_CryptoAlgorithms {
 	
 	public static void main(String[] args) {
 
-		System.out.println("Auflistung aller Kryptographie-Provider und unterstützten Algorithmen");
+		System.out.println("A04 Auflistung aller Kryptographie-Provider und unterstützten Algorithmen");
 		// source https://stackoverflow.com/questions/3683302/how-to-find-out-what-algorithm-encryption-are-supported-by-my-jvm/3683915#3683915
 		for (Provider provider : Security.getProviders()) {
 			System.out.println("Provider: " + provider.getName() + " version: " + provider.getVersion());
